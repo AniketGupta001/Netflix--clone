@@ -1,17 +1,18 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-color: black;
 }
- 
-.separation{
+
+.separation {
     height: 10px;
     background-color: rgba(128, 128, 128, 0.137);
 }
-main{
+
+main {
     background-image: url("images/bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,27 +20,30 @@ main{
     background-size: max(1200px, 100vw);
     position: relative;
 }
-main .box{
+
+main .box {
     background-color: rgba(0, 0, 0, 0.603);
     height: 644px;
     width: 100%;
     position: absolute;
     top: 0;
 }
-main nav{
+
+main nav {
     height: 100px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     position: relative;
     z-index: 10;
 }
 
-main nav .btn{
+main nav .btn {
     font-size: 12px;
     cursor: pointer;
 }
-.btn1{
+
+.btn1 {
     color: white;
     background-color: rgba(0, 0, 0, 0);
     height: 33px;
@@ -48,11 +52,13 @@ main nav .btn{
     border-radius: 5px;
     text-align: center;
 }
-nav div select option{
+
+nav div select option {
     color: black;
 }
-.btn2{
-    color:white;
+
+.btn2 {
+    color: white;
     background-color: rgb(255, 0, 0);
     border: 2px solid white;
     border-radius: 5px;
@@ -60,9 +66,9 @@ nav div select option{
     width: 115px;
 }
 
-main .text-box{
+main .text-box {
     display: flex;
-    height: 520px ;
+    height: 520px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -73,23 +79,25 @@ main .text-box{
     gap: 28px;
 }
 
-.text-box> :nth-child(1){
+.text-box> :nth-child(1) {
     font-family: sans-serif;
     font-size: 50px;
     font-weight: 700;
 }
-.text-box> :nth-child(2){
+
+.text-box> :nth-child(2) {
     font-family: sans-serif;
     font-size: 30px;
     font-weight: 700;
 }
-.text-box> :nth-child(3){
+
+.text-box> :nth-child(3) {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 700;
 }
 
-.btn3{
+.btn3 {
     position: relative;
 }
 
@@ -114,7 +122,7 @@ main .text-box{
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
-.hero-btns button{
+.hero-btns button {
     height: 33px;
     width: 113px;
     border-radius: 4px;
@@ -124,7 +132,7 @@ main .text-box{
     color: white;
 }
 
-.first{
+.first {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -132,14 +140,14 @@ main .text-box{
     color: white;
 }
 
-.sec-img{
+.sec-img {
     position: relative;
 
 }
 
 
 
-.sec-img img{
+.sec-img img {
     position: relative;
     z-index: 10;
     width: 555px;
@@ -147,22 +155,26 @@ main .text-box{
 }
 
 
-.sec-img video{
+.sec-img video {
     position: absolute;
     margin: 69px -500px;
 }
 
-.sec-txt span:nth-child(1){
+.sec-txt{
+    padding: 3px;
+}
+.sec-txt span:nth-child(1) {
     font-size: 61px;
     display: block;
 
 }
 
 
- .sec-faq{
+.sec-faq {
     padding: 100px;
- }
-.faq-box{
+}
+
+.faq-box {
     background-color: rgba(128, 128, 128, 0.733);
     height: 8vh;
     width: 60vw;
@@ -170,33 +182,34 @@ main .text-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:auto;
+    margin: auto;
     font-size: 25px;
     gap: 10px 10px;
 
 }
 
-.sec-faq{
+.sec-faq {
     display: flex;
     flex-direction: column;
     gap: 20px 10px;
 }
 
-.faq-box  svg{
+.faq-box svg {
     height: 31px;
 }
+
 .faq-box:hover {
     background-color: rgba(128, 128, 128, 0.342);
     cursor: pointer;
 }
 
-.footer{
+.footer {
     padding: 100px;
     margin-left: -150px;
 
 }
 
-.footer .links  {
+.footer .links {
     color: white;
     justify-content: center;
     align-items: center;
@@ -205,7 +218,8 @@ main .text-box{
     grid-template-columns: 15px 15px 15px 15px;
     gap: 10px 230px;
 }
-.footer .links a{
+
+.footer .links a {
     color: white;
     padding: 10px;
 }
@@ -217,26 +231,54 @@ main .text-box{
 
 
 @media screen and (max-width:450px) {
-    .footer .links{
+    .footer .links {
         grid-template-columns: 15px 15px;
     }
-    .footer span{
-        margin-left: 69px;
+
+    .footer span {
+        margin-left: 58px;
     }
-    .sec-faq{
+
+    .sec-faq {
         margin-left: -23px;
     }
-    
+
+    .hero-btns {
+        height: 124px;
+        width: 341px;
+        margin-left: 42px;
+    }
+
+    .text-box :nth-child(1) {
+        height: 274px;
+    }
+
+    .first .sec-img img {
+        height: 170px;
+        width: auto;
+    }
+
+    .first .sec-img video {
+        height: 99px;
+        width: auto;
+        margin: 28px -207px;
+    }
+
+
+    .sec-txt span:nth-child(1) {
+        font-size: 25px;
+    }
+    .sec-txt span:nth-child(2) {
+        font-size: 13px;
+    }
+
+    nav div  .btn1{
+        margin: 0px 109px;
+    }
+    nav div  .btn2{
+        margin: 0px 155px;
+    }
+
+
 
 }
-
-
-
-
-
-
-
-
-
-
-
