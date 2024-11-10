@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    background-image: url("bg.jpg");
+    background-image: url("images/bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     height: 644px;
@@ -231,6 +231,10 @@ main .text-box {
 
 
 @media screen and (max-width:450px) {
+    body{
+        width: 556px;
+    }
+
     .footer .links {
         grid-template-columns: 15px 15px;
     }
@@ -273,10 +277,8 @@ main .text-box {
     }
 
     nav div  .btn1{
-        margin: 0px 109px;
-    }
-    nav div  .btn2{
-        margin: 0px 155px;
+        margin-top: 0px;
+        margin-left: 97px;
     }
 
 
