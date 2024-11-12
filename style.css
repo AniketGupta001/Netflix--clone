@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    background-image: url("images/bg.jpg");
+    background-image: url("bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     height: 644px;
@@ -294,7 +294,7 @@ main .text-box {
     }
 
     nav div  .btn1{
-        margin-top: -5px; */
+        margin-top: -5px; 
         margin-left: 46px;
         width: 73px;
     }
