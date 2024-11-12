@@ -259,7 +259,7 @@ main .text-box {
     }
 
     .text-box :nth-child(1) {
-        height: 195px;
+        height: 295px;
         padding: 11px;
         text-align: center;
     }
