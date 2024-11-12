@@ -266,13 +266,15 @@ main .text-box {
     .text-box :nth-child(2) {
         padding: 11px;
         text-align: center;
+        position: relative;
+        top: -39px;
     }
     .text-box :nth-child(3) {
         padding: 9px;
         text-align: center;
         /* margin-top: -82px; */
         position: relative;
-        top: -19px;
+        top: -24px;
     }
 
 
