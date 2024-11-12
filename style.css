@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    background-image: url("bg.jpg");
+    background-image: url("images/bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     height: 644px;
@@ -76,7 +76,7 @@ main .text-box {
     z-index: 10;
     padding: 0px 0px;
     color: white;
-    gap: 28px;
+    gap: 21px;
 }
 
 .text-box> :nth-child(1) {
@@ -185,8 +185,12 @@ main .text-box {
     margin: auto;
     font-size: 25px;
     gap: 10px 10px;
+    transition: 1.5S;
 
 }
+
+
+
 
 .sec-faq {
     display: flex;
@@ -202,6 +206,7 @@ main .text-box {
     background-color: rgba(128, 128, 128, 0.342);
     cursor: pointer;
 }
+
 
 .footer {
     padding: 100px;
@@ -231,9 +236,7 @@ main .text-box {
 
 
 @media screen and (max-width:450px) {
-    body{
-        width: 556px;
-    }
+
 
     .footer .links {
         grid-template-columns: 15px 15px;
@@ -248,14 +251,28 @@ main .text-box {
     }
 
     .hero-btns {
-        height: 124px;
+        height: 61px;
         width: 341px;
-        margin-left: 42px;
+        /* margin-left: 72px; */
+        margin: auto;
+        top: -81px;
     }
 
     .text-box :nth-child(1) {
-        height: 274px;
+        height: 195px;
+        padding: 11px;
+        text-align: center;
     }
+    .text-box :nth-child(2) {
+        padding: 11px;
+        text-align: center;
+    }
+    .text-box :nth-child(3) {
+        padding: 11px;
+        text-align: center;
+    }
+
+
 
     .first .sec-img img {
         height: 170px;
@@ -277,8 +294,16 @@ main .text-box {
     }
 
     nav div  .btn1{
-        margin-top: 0px;
-        margin-left: 97px;
+        margin-top: -5px; */
+        margin-left: 46px;
+        width: 73px;
+    }
+
+    nav{
+        padding:22px;
+    }
+    .separations{
+        padding: 10px;
     }
 
 
@@ -287,6 +312,3 @@ main .text-box {
 
 
 
-</body>
-
-</html>
